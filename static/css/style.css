@@ -62,7 +62,7 @@ body {
 }
 
 .home-services .card {
-    background-color: #EFF6E0;
+    background-color: #FFFFFF;
     padding: 0.5rem;
     border-color: #AEC3B0;
     border-width: 5px;
@@ -72,10 +72,9 @@ body {
 }
 
 .home-services .card:hover {
-    border-color: #ffb703;
+    border-color: #3bb5b3;
 }
 
 .home-services .card .card-img-top {
     aspect-ratio: 5;
-    border-radius: 17px;
 }
