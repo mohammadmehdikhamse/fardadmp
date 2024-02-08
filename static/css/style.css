@@ -18,6 +18,18 @@ body {
     padding: 0.75rem;
 }
 
+.home-navbar .dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.home-navbar .dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.dropdown-menu-color {
+    background-color: #124559;
+}
+
 .home-carousel .carousel-inner {
     margin-top: 8rem;
     margin-bottom: 7.5rem;
@@ -36,6 +48,12 @@ body {
 @media (width < 700px) {
     .home-about .video {
         height: 200px;
+    }
+}
+
+@media (width < 450px) {
+    .home-about .video {
+        height: 180px;
     }
 }
 
