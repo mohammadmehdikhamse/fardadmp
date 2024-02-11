@@ -10,11 +10,11 @@
 
 body {
     font-family: 'Noto Sans Arabic', sans-serif;
-    background: #01161E;
+    background: #FFFFFF;
 }
 
 .home-navbar .navbar {
-    background-color: #124559;
+    background-color: #033e80;
     padding: 0.75rem;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .dropdown-menu-color {
-    background-color: #124559;
+    background-color: #033e80;
 }
 
 .home-carousel .carousel-inner {
@@ -64,15 +64,15 @@ body {
 .home-services .card {
     background-color: #FFFFFF;
     padding: 0.5rem;
-    border-color: #AEC3B0;
-    border-width: 5px;
+    border-color: #707070;
+    border-width: 3px;
     border-radius: 17px;
     margin: 1rem;
     transform: 0.3s ease all;
 }
 
 .home-services .card:hover {
-    border-color: #3bb5b3;
+    border-color: #033e80;
 }
 
 .home-services .card .card-img-top {
