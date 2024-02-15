@@ -7,22 +7,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
     <title>صفحه اصلی - Fardad Machine Paya</title>
+    <link rel="icon" type="image/x-icon" href="static/image/PNG01.png">
     <link rel="stylesheet" href="static/vendor/css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
 
-    <!-- home navigation bar : search bar fix -->
-    <!-- navbrand logo -->
-
+    <!-- home navbar -->
     <div class="home-navbar">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
 
             <div class="container">
 
-                <a class="navbar-brand ms-2" href="#">فرداد ماشین پایا</a>
+                <a class="navbar-brand ms-2" href="#">
+                    <img class="me-3" src="static/image/PNG01.png" alt="Bootstrap" width="50" height="50">
+                    فرداد ماشین پایا
+                </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -43,9 +46,9 @@
                                 محصولات
                             </a>
                             <ul class="dropdown-menu dropdown-menu-color">
-                                <li><a class="dropdown-item text-white" href="#">تست یک</a></li>
-                                <li><a class="dropdown-item text-white" href="#">تست دو</a></li>
-                                <li><a class="dropdown-item text-white" href="#">تست سه</a></li>
+                                <li><a class="dropdown-item" href="#">تست یک</a></li>
+                                <li><a class="dropdown-item" href="#">تست دو</a></li>
+                                <li><a class="dropdown-item" href="#">تست سه</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown ms-2">
@@ -54,9 +57,9 @@
                                 پروژه ها
                             </a>
                             <ul class="dropdown-menu dropdown-menu-color">
-                                <li><a class="dropdown-item text-white" href="#">تست یک</a></li>
-                                <li><a class="dropdown-item text-white" href="#">تست دو</a></li>
-                                <li><a class="dropdown-item text-white" href="#">تست سه</a></li>
+                                <li><a class="dropdown-item" href="#">تست یک</a></li>
+                                <li><a class="dropdown-item" href="#">تست دو</a></li>
+                                <li><a class="dropdown-item" href="#">تست سه</a></li>
                             </ul>
                         </li>
                         <li class="nav-item ms-2">
@@ -87,13 +90,13 @@
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="static/image/Gas Turbine (Combustion Turbine).png" class="d-block w-100">
+                        <img src="static/image/carousel3.jpg" class="d-block w-100">
                     </div>
                     <div class="carousel-item">
-                        <img src="static/image/hero-steam-turbine-products-gas.jpg" class="d-block w-100">
+                        <img src="static/image/carousel2.jpg" class="d-block w-100">
                     </div>
                     <div class="carousel-item">
-                        <img src="static/image/industrial_pumps.jpg" class="d-block w-100">
+                        <img src="static/image/carousel1.jpg" class="d-block w-100">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -114,7 +117,7 @@
 
     <div class="home-about">
         <section class="container">
-            <div class="h4 pb-2 mb-5 text-dark border-bottom border-dark">
+            <div class="h4 pb-2 mb-5 text-primary border-bottom border-primary">
                 <h4>درباره ما :</h4>
             </div>
             <div class="row">
@@ -152,7 +155,7 @@
     <!-- available services -->
     <div class="home-services">
         <section class="container">
-            <div class="h4 pb-2 mb-5 text-dark border-bottom border-dark">
+            <div class="h4 pb-2 mb-5 text-primary border-bottom border-primary">
                 <h4>خدمات فرداد ماشین پایا :</h4>
             </div>
 
@@ -202,40 +205,44 @@
         </section>
     </div>
 
-    <footer>
-        <div class="h4 pb-2 border-top border-dark"></div>
-        <section class="container">
-            <div class="row" style="margin: 2rem;">
-                <div class="col col-lg-4 col-md-12">
-                    <img src="static/image/فرداد(JPG)01.jpg" class="img-fluid rounded" alt="...">
+    <!-- home footer -->
+    <div class="home-footer">
+        <footer>
+            <div class="h4 pb-2 border-top border-primary"></div>
+            <section class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 text-center">
+                        <img src="static/image/PNG03.png" class="img-fluid">
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <h5 class="mb-4">درباره ما</h5>
+                        <p>
+                            شرکت فرداد ماشین پایا در زمینه ی مشاوره، زمینه طراحی , مهندسی معکوس , ساخت , تامین و تجهیز
+                            تمامی
+                            قطعات و تجهیزات صنعتی دوار و ثابت
+                            با هدف ارائه بهترین خدمات در زمینه مهندسی و ساخت در کنار صنایع بزرگ و کوچک
+                            ارائه می دهد.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <h5 class="mb-4">راه های ارتباطی</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="ri-map-pin-line"></i></li>
+                            <li><i class="ri-mail-line"></i></li>
+                            <li><i class="ri-phone-line"></i></li>
+                            <li><i class="ri-linkedin-line"></i></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col col-lg-4 col-md-12">
-                    <h5 class="mb-4">درباره ما</h5>
-                    <p>
-                        شرکت فرداد ماشین پایا در زمینه ی مشاوره، زمینه طراحی , مهندسی معکوس , ساخت , تامین و تجهیز تمامی
-                        قطعات و تجهیزات صنعتی دوار و ثابت
-                        با هدف ارائه بهترین خدمات در زمینه مهندسی و ساخت در کنار صنایع بزرگ و کوچک
-                        ارائه می دهد.
-                    </p>
+            </section>
+            <div class="h4 pb-2 border-top border-primary"></div>
+            <section class="container">
+                <div class="copyright text-center mb-3">
+                    تمام حقوق این وب‌سایت متعلق به شرکت فرداد ماشین پایا است. ©
                 </div>
-                <div class="col col-lg-4 col-md-12">
-                    <h5 class="mb-4">راه های ارتباطی</h5>
-                    <ul class="list-unstyled">
-                        <li>تست</li>
-                        <li>تست</li>
-                        <li>تست</li>
-                        <li>تست</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <div class="h4 pb-2 text-dark border-top border-dark"></div>
-        <section class="container">
-            <div class="copyright text-center mb-3">
-                تمام حقوق این وب‌سایت متعلق به شرکت فرداد ماشین پایا است. ©
-            </div>
-        </section>
-    </footer>
+            </section>
+        </footer>
+    </div>
 
 
     <script src="static/vendor/js/bootstrap.bundle.min.js"></script>
