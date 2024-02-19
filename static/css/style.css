@@ -38,16 +38,16 @@ body {
     background: #EBEBEB;
 }
 
-.home-navbar .navbar {
+.navbar {
     background-color: #CCCCCC;
     padding: 0.75rem;
 }
 
-.home-navbar .dropdown:hover>.dropdown-menu {
+.dropdown:hover>.dropdown-menu {
     display: block;
 }
 
-.home-navbar .dropdown>.dropdown-toggle:active {
+.dropdown>.dropdown-toggle:active {
     pointer-events: none;
 }
 
@@ -104,15 +104,39 @@ body {
     aspect-ratio: 5;
 }
 
-.home-footer .row {
+.footer .row {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
-.home-footer .col-lg-4 {
+.footer .col-lg-4 {
     padding: 2rem;
 }
 
-.home-footer .img-fluid {
+.footer .img-fluid {
     height: 190px;
+}
+
+/* product page css section */
+
+.product-header {
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+
+.product-body {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 6rem;
+}
+
+.product-body .card {
+    border-color: #859FFF;
+    border-width: 2px;
+    border-radius: 18px;
+}
+
+.product-body .card .card-img{
+    height: 440px;
+    border-radius: 18px;
 }

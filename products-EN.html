@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
-    <title>Home - Fardad Machine Paya</title>
+    <title>Products - Fardad Machine Paya</title>
     <link rel="icon" type="image/x-icon" href="static/image/PNG01.png">
     <link rel="stylesheet" href="static/vendor/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/style.css">
@@ -34,7 +34,7 @@
 
         <div class="container">
 
-            <a class="navbar-brand ms-2" href="#">
+            <a class="navbar-brand ms-2" href="EN.html">
                 <img class="me-2" src="static/image/PNG01.png" alt="Bootstrap" width="50" height="50">
                 Fardad Machine Paya
             </a>
@@ -50,7 +50,7 @@
                 <ul class="navbar-nav mb-lg-0">
 
                     <li class="nav-item ms-2">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active" href="EN.html">Home</a>
                     </li>
                     <li class="nav-item dropdown ms-2">
                         <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
@@ -83,7 +83,7 @@
 
                 <ul class="navbar-nav mb-lg-0 ms-auto">
                     <li class="nav-item ms-2 me-3">
-                        <a class="nav-link active" href="index.html">FA</a>
+                        <a class="nav-link active" href="products.html">FA</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" aria-disabled="true">Under construction ...</a>
@@ -94,123 +94,83 @@
         </div>
     </nav>
 
-    <!-- home page image carousel -->
-
-    <div class="home-carousel">
-
+    <!-- product header -->
+    <div class="product-header">
         <section class="container">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="static/image/carousel3.jpg" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="static/image/carousel2.jpg" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="static/image/carousel1.jpg" class="d-block w-100">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item">
+                        <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                            href="EN.html">Home page
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Products</li>
+                </ol>
+            </nav>
         </section>
     </div>
 
-    <!-- small home page debrife -->
-
-    <div class="home-about">
-        <section class="container">
-            <div class="h4 pb-2 mb-5 text-primary border-bottom border-primary">
-                <h4>About us :</h4>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-12 mb-5">
-                    <p>
-                        We are a company in the field of design, reverse engineering, manufacturing, supplying and
-                        equipping all rotating and fixed industrial parts and equipment.
-                    </p>
-                    <p>
-                        Fardad Machine Paya Industrial Group is trying to help the large and small industries by
-                        providing the best services in the field of engineering and construction.
-                    </p>
-                    <p>
-                        Other activities of the company:
-                    </p>
-                    <p>
-                        Production, commissioning and repairs of packaging machines used in the pharmaceutical, food,
-                        cosmetic and health industries with the relevant standards in the shortest time, the best
-                        quality and the lowest price.
-                    </p>
-                    <p>
-                        Our products have a 12-month warranty and 24-hour and 12-year after-sales service. Also,
-                        periodic inspection of devices during the warranty period is one of our services.
-                    </p>
-                </div>
-
-                <div class="col-lg-6 col-md-12 text-center">
-                    <video controls class="video">
-                        <source src="static/video/ver.MOV" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <!-- available services -->
-    <div class="home-services">
-        <section class="container">
-            <div class="h4 pb-2 mb-5 text-primary border-bottom border-primary">
-                <h4>Services :</h4>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="static/image/conveyor-icon.svg" class="card-img-top mb-4">
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Products :</h6>
-                            <p class="card-text">
-                                <li>Production of all kinds of imported non-standard parts and bolts</li>
-                                <li>All kinds of adhesive label machines</li>
-                                <li>All Conveyor types</li>
-                            </p>
+    <!-- product body -->
+    <div class="product-body">
+        <section class="container-fluid">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-5 text-center">
+                <div class="col">
+                    <div class="card text-bg-light">
+                        <img src="static/image/machine 1.jpg" class="card-img">
+                        <div class="card-footer bg-transparent">
+                            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                href="#">Test
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="static/image/customize-icon.svg" class="card-img-top mb-4">
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Construction :</h6>
-                            <p class="card-text">
-                                <li>All types of casting</li>
-                                <li>Machining with five-axis CNC</li>
-                                <li>Scanning and 3D printing of all kinds of parts</li>
-                                <li>All kinds of materials, even imported super alloys</li>
-                            </p>
+                <div class="col">
+                    <div class="card text-bg-light">
+                        <img src="static/image/machine 2.jpg" class="card-img">
+                        <div class="card-footer bg-transparent">
+                            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                href="#">Test
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="static/image/geometry-icon.svg" class="card-img-top mb-4">
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Designing :</h6>
-                            <p class="card-text">
-                                <li>rotors</li>
-                                <li>Gas and steam turbines</li>
-                                <li>Compressors</li>
-                                <li>OH-BB-VS industrial pumps</li>
-                            </p>
+                <div class="col">
+                    <div class="card text-bg-light">
+                        <img src="static/image/machine 3.jpg" class="card-img">
+                        <div class="card-footer bg-transparent">
+                            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                href="#">Test
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-light">
+                        <img src="static/image/machine 4.jpg" class="card-img">
+                        <div class="card-footer bg-transparent">
+                            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                href="#">Test
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-light">
+                        <img src="static/image/machine 5.jpg" class="card-img">
+                        <div class="card-footer bg-transparent">
+                            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                href="#">Test
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-light">
+                        <img src="static/image/machine 6.jpg" class="card-img">
+                        <div class="card-footer bg-transparent">
+                            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                href="#">Test
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -218,7 +178,7 @@
         </section>
     </div>
 
-    <!-- home footer -->
+    <!-- product footer -->
     <footer>
         <div class="footer">
             <div class="h4 pb-2 border-top border-primary"></div>
