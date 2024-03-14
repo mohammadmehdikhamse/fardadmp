@@ -137,3 +137,11 @@ body {
 .product-body .card .card-img{
     border-radius: 18px;
 }
+
+/* project page css section */
+
+.project-body .card {
+    border-color: #859FFF;
+    border-width: 2px;
+    border-radius: 18px;
+}
