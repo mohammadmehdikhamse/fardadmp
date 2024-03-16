@@ -104,14 +104,27 @@ body {
     aspect-ratio: 5;
 }
 
-.footer .row {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+.spacer {
+    aspect-ratio: 1920/200;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.footer .col-lg-4 {
-    padding: 2rem;
+.layer2 {
+    background-image: url('/layer.svg');
 }
+
+.footer {
+    background-color: #CCCCCC;
+}
+
+.footer .row {
+    margin-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
 
 .footer .img-fluid {
     height: 190px;
