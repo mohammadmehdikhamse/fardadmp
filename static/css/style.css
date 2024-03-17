@@ -82,26 +82,98 @@ body {
     }
 }
 
-.home-services {
-    margin-bottom: 5rem;
+.flipbox {
+    perspective: 1000px;
+    position: relative;
+    transform-style: preserve-3d;
+    margin-bottom: 40px;
+    padding: 1.5rem;
 }
 
-.home-services .card {
-    background-color: #FFFFFF;
-    padding: 0.5rem;
-    border-color: #707070;
-    border-width: 3px;
+.flipbox_inner {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    padding-bottom: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.7s ease;
+}
+
+.flipbox_font{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 17px;
-    margin: 1rem;
-    transform: 0.3s ease all;
+    padding: 5rem;
+    backface-visibility: hidden;
+    transition: transform 0.7s ease, -webkit-transform 0.7s ease;
+    
 }
 
-.home-services .card:hover {
-    border-color: #033e80;
+.flipbox_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 17px;
+    padding: 1rem;
+    backface-visibility: hidden;
+    transition: transform 0.7s ease, -webkit-transform 0.7s ease;
 }
 
-.home-services .card .card-img-top {
-    aspect-ratio: 5;
+.flipbox_back {
+    align-items: flex-start;
+}
+
+.flipbox_font {
+    background: #CCCCCC;
+}
+
+.flipbox:hover .flipbox_font {
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+}
+
+.flipbox_back {
+    background: #04438B;
+    text-align: center;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.flipbox_back .header {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.flipbox:hover .flipbox_back {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+}
+
+@media (min-width: 768px) {
+    .padyatri_team .col-md-3 {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 479px) {
+    .padyatri_team .col-6 {
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
 }
 
 .spacer {
@@ -112,8 +184,20 @@ body {
     background-size: cover;
 }
 
+@media (width < 700px) {
+    .spacer {
+        aspect-ratio: 2;
+    }
+}
+
+@media (width < 700px) {
+    .spacer {
+        aspect-ratio: 2;
+    }
+}
+
 .layer2 {
-    background-image: url('/layer.svg');
+    background-image: url('/static/image/layer.svg');
 }
 
 .footer {
@@ -138,7 +222,7 @@ body {
 }
 
 .product-body {
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
 }
 
 .product-body .card {
@@ -147,6 +231,6 @@ body {
     border-radius: 18px;
 }
 
-.product-body .card .card-img{
+.product-body .card .card-img {
     border-radius: 18px;
 }
