@@ -45,14 +45,11 @@ body {
 
 .dropdown:hover>.dropdown-menu {
     display: block;
+    background-color: #CCCCCC;
 }
 
 .dropdown>.dropdown-toggle:active {
     pointer-events: none;
-}
-
-.dropdown-menu-color {
-    background-color: #CCCCCC;
 }
 
 .home-carousel .carousel-inner {
@@ -62,7 +59,7 @@ body {
 }
 
 .home-about {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .home-about .video {
