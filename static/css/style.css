@@ -62,23 +62,6 @@ body {
     margin-bottom: 4rem;
 }
 
-.home-about .video {
-    height: 300px;
-    border-radius: 18px;
-}
-
-@media (width < 700px) {
-    .home-about .video {
-        height: 200px;
-    }
-}
-
-@media (width < 450px) {
-    .home-about .video {
-        height: 180px;
-    }
-}
-
 .flipbox {
     perspective: 1000px;
     position: relative;
@@ -238,4 +221,14 @@ body {
     border-color: #859FFF;
     border-width: 2px;
     border-radius: 18px;
+}
+
+/* about page */
+
+.about-header {
+    margin-top: 9rem;
+}
+
+.about-body {
+    margin-bottom: 3rem;
 }
