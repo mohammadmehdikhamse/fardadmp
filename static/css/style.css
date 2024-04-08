@@ -223,6 +223,10 @@ body {
     border-radius: 18px;
 }
 
+.project-body .card .card-img {
+    border-radius: 18px;
+}
+
 /* about page */
 
 .about-header {
