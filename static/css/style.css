@@ -236,3 +236,14 @@ body {
 .about-body {
     margin-bottom: 3rem;
 }
+
+/* pertochem product page */
+
+.engProduct-body {
+    margin-bottom: 4rem;
+}
+
+.engProduct-body .card {
+    border-color: #859FFF;
+    border-width: 2px;
+}
