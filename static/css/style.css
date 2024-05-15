@@ -247,3 +247,23 @@ body {
     border-color: #859FFF;
     border-width: 2px;
 }
+
+/* departmans page */
+
+.dep-header {
+    margin-top: 8rem;
+}
+
+.dep-body {
+    margin-bottom: 4.5rem;
+}
+
+.dep-body .card {
+    border-color: #859FFF;
+    border-width: 3px;
+    border-radius: 18px;
+}
+
+.dep-body .card .card-img {
+    border-radius: 18px;
+}
